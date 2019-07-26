@@ -12,6 +12,8 @@
 		2F22C04C22D60A3E0017525D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F22C04A22D60A3E0017525D /* Main.storyboard */; };
 		2F22C04E22D60A520017525D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F22C04D22D60A520017525D /* Assets.xcassets */; };
 		2F22C05122D60A520017525D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F22C04F22D60A520017525D /* LaunchScreen.storyboard */; };
+		2F3FAAF122D7551A0057E277 /* X.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F3FAAEF22D755190057E277 /* X.jpeg */; };
+		2F3FAAF222D7551A0057E277 /* O.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F3FAAF022D755190057E277 /* O.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2F22C04D22D60A520017525D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F22C05022D60A520017525D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F22C05222D60A520017525D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3FAAEF22D755190057E277 /* X.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = X.jpeg; sourceTree = "<group>"; };
+		2F3FAAF022D755190057E277 /* O.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = O.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				2F22C04622D60A3E0017525D /* AppDelegate.swift */,
 				2F22C04822D60A3E0017525D /* ViewController.swift */,
 				2F22C04A22D60A3E0017525D /* Main.storyboard */,
-				2F22C04D22D60A520017525D /* Assets.xcassets */,
-				2F22C04F22D60A520017525D /* LaunchScreen.storyboard */,
 				2F22C05222D60A520017525D /* Info.plist */,
+				2F22C04D22D60A520017525D /* Assets.xcassets */,
+				2F3FAAF022D755190057E277 /* O.jpeg */,
+				2F3FAAEF22D755190057E277 /* X.jpeg */,
+				2F22C04F22D60A520017525D /* LaunchScreen.storyboard */,
 			);
 			path = XOGame;
 			sourceTree = "<group>";
@@ -122,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3FAAF222D7551A0057E277 /* O.jpeg in Resources */,
 				2F22C05122D60A520017525D /* LaunchScreen.storyboard in Resources */,
 				2F22C04E22D60A520017525D /* Assets.xcassets in Resources */,
+				2F3FAAF122D7551A0057E277 /* X.jpeg in Resources */,
 				2F22C04C22D60A3E0017525D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
